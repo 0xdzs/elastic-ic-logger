@@ -1,0 +1,4 @@
+service : {
+   append: (vec text) -> () oneway;
+   view: (nat, nat) -> (View) query;
+}
